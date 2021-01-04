@@ -1,0 +1,76 @@
+
+body{
+	background-color: #FBEFEF;
+	margin:0;
+	padding:0;
+}
+
+.baner{
+	width:100%;
+	height:100px;
+	background-color: brown;
+
+}
+
+.zawartosc{	
+	margin-left: 200px;
+
+}
+
+h1,h2{
+	color:red;
+}
+
+h2{
+	border-bottom: 2px solid red;
+}
+
+ul, p{
+	font-family: Arial, sans-serif;
+	line-height: 30px;
+}
+
+img{
+	float: left;
+	margin-left: -50px;
+	margin-right: 50px;
+}
+
+.menu{
+	width:200px;
+	height: 200px;
+	position: fixed;
+	top:0;
+	left:0;
+}
+.menu > ul{
+	margin: 0;
+	padding:0;
+	
+}
+.menu >ul >li{
+	background-color: rgb(104,0,0);
+	border:2px solid #FBEFEF;
+	text-decoration: none;
+
+}
+.menu > ul > li > a{
+		background-color: rgb(204,0,0);
+
+	display: block;
+	padding:10px;
+	margin-left:20px;
+	transition: 0.3s;
+		text-decoration: none;
+		color:white;
+
+}
+.menu > ul > li > a:hover{
+	background-color: red;
+}
+
+hr{
+	background-color: red;
+	height: 3px;
+	border:none;
+}
